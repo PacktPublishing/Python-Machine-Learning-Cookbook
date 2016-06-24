@@ -14,7 +14,7 @@ colors = ['orange', 'lightgreen', 'lightblue', 'gold', 'cyan']
 # Needed if we want to highlight a section
 explode = (0, 0, 0, 0, 0)  
 
-# Plot the pie chat
+# Plot the pie chart
 plt.pie(data.values(), explode=explode, labels=data.keys(), 
         colors=colors, autopct='%1.1f%%', shadow=False, startangle=90)
 
